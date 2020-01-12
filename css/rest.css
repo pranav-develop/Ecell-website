@@ -1,0 +1,21 @@
+
+
+#world{
+	z-index: 1;
+	position: absolute;
+}
+
+.home-content__buttons{
+	z-index: 1000000 !important;
+	position: absolute;
+}
+#home{
+	overflow: hidden;
+}
+
+.home-content__scroll{
+	z-index: 1000000 !important;
+}
+.home-social{
+	z-index: 100000 !important;
+}
