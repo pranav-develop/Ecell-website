@@ -1,0 +1,106 @@
+/*function showini(){
+	
+}
+
+function hideini(){
+	b = document.getElementsByClassName("ini-desc-back").innerHTML();
+		b.style.display = "none";
+	console.log("working hide");
+}*/
+document.getElementById("demo01").addEventListener("click", function(){
+	var b = document.getElementById("test1");
+	b.style.display="block";
+});
+document.getElementById("demo02").addEventListener("click", function(){
+	var b = document.getElementById("test2");
+	b.style.display="block";
+});
+document.getElementById("demo03").addEventListener("click", function(){
+	var b = document.getElementById("test3");
+	b.style.display="block";
+});
+document.getElementById("demo04").addEventListener("click", function(){
+	var b = document.getElementById("test4");
+	b.style.display="block";
+});
+document.getElementById("demo05").addEventListener("click", function(){
+	var b = document.getElementById("test5");
+	b.style.display="block";
+});
+document.getElementById("demo06").addEventListener("click", function(){
+	var b = document.getElementById("test6");
+	b.style.display="block";
+});
+document.getElementById("demo07").addEventListener("click", function(){
+	var b = document.getElementById("test7");
+	b.style.display="block";
+});
+document.getElementById("demo08").addEventListener("click", function(){
+	var b = document.getElementById("test8");
+	b.style.display="block";
+});
+document.getElementById("demo09").addEventListener("click", function(){
+	var b = document.getElementById("test9");
+	b.style.display="block";
+});
+	
+document.getElementById("btn-close-modal1").addEventListener("click", function(){
+	var b = document.getElementById("test1");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal2").addEventListener("click", function(){
+	var b = document.getElementById("test2");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal3").addEventListener("click", function(){
+	var b = document.getElementById("test3");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal4").addEventListener("click", function(){
+	var b = document.getElementById("test4");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal5").addEventListener("click", function(){
+	var b = document.getElementById("test5");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal6").addEventListener("click", function(){
+	var b = document.getElementById("test6");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal7").addEventListener("click", function(){
+	var b = document.getElementById("test7");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal8").addEventListener("click", function(){
+	var b = document.getElementById("test8");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal9").addEventListener("click", function(){
+	var b = document.getElementById("test9");
+	b.style.display="none";
+});
+
+var swiper = new Swiper('.swiper-container', {
+  effect: 'cube',
+  grabCursor: true,
+  cubeEffect: {
+	shadow: true,
+	slideShadows: true,
+	shadowOffset: 20,
+	shadowScale: 0.94,
+  },
+  pagination: {
+	el: '.swiper-pagination',
+  },
+});
+
+	$("#demo01").animatedModal1();
+ $("#demo02").animatedModal2();
+ $("#demo03").animatedModal3();
+ $("#demo04").animatedModal4();
+ $("#demo05").animatedModal5();
+ $("#demo06").animatedModal6();
+ $("#demo07").animatedModal7();
+ $("#demo08").animatedModal8();
+ $("#demo09").animatedModal9();
