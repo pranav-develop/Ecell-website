@@ -431,6 +431,7 @@ aside.clients img {
 }
 
 /*.s-about{
+/*.s-about{
 	background: #b0e0e6;
 }*/
 .header-menu-text{
@@ -441,4 +442,23 @@ aside.clients img {
 	color: #fff;
 	font-size: 25px;
 	margin-top: -10px;
+}
+
+.about-desc{
+	text-align: justify;
+}
+
+.ini-img-slider-cover{
+	width: 300px;
+  height: 300px;
+  position: relative;
+  left: 50%;
+	top: 4%;
+  margin-left: -150px;
+}
+
+.ini-img-slider{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
 }
