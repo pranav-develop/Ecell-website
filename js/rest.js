@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-demo').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
@@ -12,6 +12,24 @@ $('.owl-carousel').owlCarousel({
         },
         1000:{
             items:5
+        }
+    }
+})
+
+$('.owl-demo-2').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+	autoplay: 1500,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
         }
     }
 })
