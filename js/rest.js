@@ -79,6 +79,10 @@ document.getElementById("demo09").addEventListener("click", function(){
 	var b = document.getElementById("test9");
 	b.style.display="block";
 });
+document.getElementById("demo010").addEventListener("click", function(){
+	var b = document.getElementById("test10");
+	b.style.display="block";
+});
 	
 document.getElementById("btn-close-modal1").addEventListener("click", function(){
 	var b = document.getElementById("test1");
@@ -116,6 +120,10 @@ document.getElementById("btn-close-modal9").addEventListener("click", function()
 	var b = document.getElementById("test9");
 	b.style.display="none";
 });
+document.getElementById("btn-close-modal10").addEventListener("click", function(){
+	var b = document.getElementById("test10");
+	b.style.display="none";
+});
 
 var swiper = new Swiper('.swiper-container', {
   effect: 'cube',
@@ -140,3 +148,4 @@ var swiper = new Swiper('.swiper-container', {
  $("#demo07").animatedModal7();
  $("#demo08").animatedModal8();
  $("#demo09").animatedModal9();
+$("#demo010").animatedModal10();
