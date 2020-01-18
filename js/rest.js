@@ -2,8 +2,8 @@ $('.owl-carousel-demo').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
-	 lazyLoad:true,
 	autoplay: 1500,
+	 lazyLoad:true,
     responsive:{
         0:{
             items:2
@@ -21,8 +21,8 @@ $('.owl-demo-2').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
-	 lazyLoad:true,
 	autoplay: 1500,
+	 lazyLoad:true,
     responsive:{
         0:{
             items:1
