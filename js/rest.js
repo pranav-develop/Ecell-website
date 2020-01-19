@@ -1,13 +1,17 @@
 $('.owl-carousel-demo').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
+	nav:false,
 	autoplay: 1500,
 	 lazyLoad:true,
+	responsiveClass:true,
     responsive:{
         0:{
-            items:2
+            items:1
         },
+		480:{
+			items:2
+		},
         600:{
             items:3
         },
