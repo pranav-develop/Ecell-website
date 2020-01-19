@@ -184,6 +184,7 @@
 
 .glyphicon-remove{
 	font-size: 30px;
+	position: fixed;
 }
 
 .ini-desc-content{
@@ -254,7 +255,7 @@
 	margin-left:5%;
 	margin-top: 1%;
 	position: relative;
-	box-shadow: 1px 1px 5px dodgerblue;
+	/*box-shadow: 1px 1px 5px dodgerblue;*/
 	border-radius: 15px 15px 15px 15px;
 	overflow: hidden;
 	width: 90%;
@@ -282,8 +283,8 @@
 .members .team-details {
 	overflow: hidden;
 	position: relative;
-	height:auto;
 	width: 100%;
+	height: 185px;
 	background: #fff;
 	border-radius: 1vh ;
 	
