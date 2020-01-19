@@ -430,10 +430,10 @@ aside.clients img {
 	color: #fff
 }
 
-/*.s-about{
-/*.s-about{
-	background: #b0e0e6;
-}*/
+
+.s-about{
+	background: #6ea776;
+}
 .header-menu-text{
 	color: #fff;
 }
@@ -461,4 +461,24 @@ aside.clients img {
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
+}
+
+.send-button{
+	background: #fff;
+	color: #000000;
+}
+
+.footer-subscribe #mc-form input[type=submit]{
+	color: #000000;
+    font-weight: 600;
+    background: #6c6c6c;
+    border-color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn.full-width, button.full-width{
+	color: #000000;
+    font-weight: 600;
+    background: #6c6c6c;
+    border-color: #fff;
 }
