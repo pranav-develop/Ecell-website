@@ -501,7 +501,7 @@ body .footer {
   z-index: 1;
   --footer-background:#fff;
   display: grid;
-
+  padding-bottom: -10px;
   position: relative;
   grid-area: footer;
   min-height: 12rem;
@@ -605,4 +605,7 @@ body .footer .content > div .image {
   100% {
     bottom: var(--distance, 10rem);
   }
+}
+iframe {
+	
 }
