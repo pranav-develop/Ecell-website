@@ -89,6 +89,13 @@ document.getElementById("demo010").addEventListener("click", function(){
 	var b = document.getElementById("test10");
 	b.style.display="block";
 });
+document.getElementById("demo010").addEventListener("click", function(){
+	var b = document.getElementById("test10");
+	b.style.display="block";
+});document.getElementById("demo011").addEventListener("click", function(){
+	var b = document.getElementById("test11");
+	b.style.display="block";
+});
 	
 document.getElementById("btn-close-modal1").addEventListener("click", function(){
 	var b = document.getElementById("test1");
@@ -128,6 +135,10 @@ document.getElementById("btn-close-modal9").addEventListener("click", function()
 });
 document.getElementById("btn-close-modal10").addEventListener("click", function(){
 	var b = document.getElementById("test10");
+	b.style.display="none";
+});
+document.getElementById("btn-close-modal11").addEventListener("click", function(){
+	var b = document.getElementById("test11");
 	b.style.display="none";
 });
 
